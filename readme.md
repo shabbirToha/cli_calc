@@ -25,17 +25,17 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/go-cli-calculator.git
+   ```bash
+   git clone https://github.com/shabbirtoha/cli_calc.git
 
-    ```
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd go-cli-calculator
+   ```bash
+   cd cli_calc
 
-    ```
+   ```
 
 ## Usage
 
@@ -90,19 +90,19 @@ To create a standalone binary for easier use:
 
 1. Build the executable:
 
-    ```bash
-    go build -o calculator calc.go
+   ```bash
+   go build -o calculator calc.go
 
-    ```
+   ```
 
 2. Run the binary directly:
 
-    ```bash
-    ./calculator 12 + 5
+   ```bash
+   ./calculator 12 + 5
 
-    ```
+   ```
 
-    Output: `12 + 5 = 17`
+   Output: `12 + 5 = 17`
 
 On Windows, use `calculator.exe` instead of `./calculator`.
 
@@ -180,20 +180,6 @@ go-cli-calculator/
 └── README.md       # Project documentation
 
 ```
-
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. **Report Bugs**: Open an issue on the [GitHub Issues page](https://github.com/yourusername/go-cli-calculator/issues).
-2. **Suggest Features**: Start a discussion in the [GitHub Discussions](https://github.com/yourusername/go-cli-calculator/discussions).
-3. **Submit Pull Requests**: Fork the repository, make your changes, and submit a pull request.
-
-Please ensure your contributions:
-
-- Adhere to [Go coding standards](https://go.dev/doc/effective_go)
-- Include relevant tests in `calc_test.go`
-- Update this `README.md` if necessary
 
 ## Roadmap
 
